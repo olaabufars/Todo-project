@@ -1,0 +1,20 @@
+.headernav{
+    display:block;
+    background-color: #dddddd;
+    height:60px;
+    padding:8px;
+    width: 100%;
+    text-align:center;
+ }
+ .headernav a {
+   color:dodgerblue;
+   padding:14px 16px;
+   font-size:17px;
+ }
+ .logodiv{
+   width:46px;
+   height:46px;
+   border-radius:50%;
+   overflow:hidden;
+   margin-top:-6px;
+ }

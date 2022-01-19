@@ -1,0 +1,53 @@
+*{
+  margin-top: 0;
+  margin-left: 0;
+}
+
+table, td, tr {
+  border: 1px solid black;
+  table-layout:fixed;
+}
+
+table {
+  width: 40%;
+  border-collapse: collapse;
+}
+td {
+  text-align: center;
+  height: 30px;
+  vertical-align: bottom;
+}
+th, td {
+  padding: 6px;
+}
+#list{
+  font-weight: bold;
+}
+#status{
+  font-weight: bold;
+}
+.maintable{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.headernav{
+   display: block;
+   background-color: #dddddd;
+   height: 60px;
+   padding: 8px;
+   width: 100%;
+   text-align: center;
+}
+.headernav a {
+  color:dodgerblue;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+.logodiv{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
