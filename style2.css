@@ -6,15 +6,24 @@
     width: 100%;
     text-align:center;
  }
- .headernav a {
-   color:dodgerblue;
-   padding:14px 16px;
-   font-size:17px;
+ .headernav > div {
+   color:ghostwhite
+   padding:30% 16%;
+   font: size 20%;;
  }
- .logodiv{
-   width:46px;
-   height:46px;
+ .headernav{
+   display: flex;
+   background-color: dodgerblue;
    border-radius:50%;
    overflow:hidden;
    margin-top:-6px;
+ }
+ #imagdiv{
+  display: block;
+  border-radius: 50%;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 150px;
+   
  }
