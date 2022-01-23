@@ -79,6 +79,7 @@ footer {
     border-radius: 50%;
   }
   table{
+      border-collapse: separate;
       padding-left: 40%;
       padding-top: 10%;
   }
