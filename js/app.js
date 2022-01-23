@@ -1,10 +1,15 @@
-/*var name = window.prompt("Enter your name: ");
+
+var name = window.prompt("Enter your name: ");
+
 var gender = window.prompt("Enter your gender: ");
 var age;
 var skip_not;
 /*while(gender != "female" && gender != "male"){
     var gender = window.prompt("Enter your gender: ");
-}:(
+
+}:(*/
+
+
 
 switch(gender) {
     case "female":
@@ -26,7 +31,10 @@ switch(gender) {
             alert("your age is less than zero or equal");
             age = window.prompt("Enter your age: ");
         }skip_not = confirm("press ok if you want skip welcome message");if(skip_not == 0){alert("Your Welcome  "+name);}}
-  }*/
+
+  }
+
+
 
 /*var age = window.prompt("Enter your age: ");
 
@@ -40,7 +48,8 @@ else if(gender == "male"){alert("Your Welcome Mr "+name);}}*/
 
 /****************************here the task6 **********************************/
 
-firstAnswer = window.prompt("write 'yes' or 'no' if you are married: ");
+
+/*firstAnswer = window.prompt("write 'yes' or 'no' if you are married: ");
 secondAnswer = window.prompt("write 'yes' or 'no' if you have a puppy: ");
 thirdAnswer = window.prompt("write 'yes' or 'no' if you are happy: ");
 const array = [];
@@ -86,4 +95,6 @@ let secondItemInArray = QuestionNoYs_2(secondAnswer);
 let thirdItemInArray = QuestionNoYs_3(thirdAnswer);
 
 array.push(firstItemInArray, secondItemInArray, thirdItemInArray);
-console.log(array);
+
+console.log(array);*/
+
